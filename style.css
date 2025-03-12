@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-jost */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jost-medium{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+#header{
+    background-color: rgb(46, 46, 46);
+    font-family: "Jost", sans-serif;
+}
+.logo img{
+    width: 125px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.btn-cv{
+    font-size: 15px;
+    border: 1px solid #80db66;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn-cv:hover{
+    background-color: #80db66;
+}
+.menu-icon{
+    color: #80db66;
+    height: 24px;
+    width: 24px;
+    cursor:pointer
+}
+/* -----------Section - 002 (Hero) ----------- */
+#hero{
+    background-color: #222222;
+    height: 100vh;
+    font-family: "Jost", sans-serif;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+}
+.hero-text{
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto; /* First column takes available space, second one is for icons */
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.container h3{
+    color: #80db66;
+    font-size: 22px;
+}
+.container h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 20px 0;
+}
+.container p{
+    color: #fff;
+    font-size: 22px;
+    padding: 0 0 40px 0 ;
+}
+.container p span{
+    color: #80db66;
+    font-size: 26px;
+}
+.hero-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto; /* This will push the hero icons to the far right */
+}
+
+.hero-icon-parent{
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.hero-icon-parent:hover{
+    background-color: #80db66;
+    border-color:#80db66;
+}
+
+.hero-icon{
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.btn-hello{
+    font-size: 15px;
+    border: 1px solid #80db66;
+    background-color: #80db66;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn-hello:hover{
+    background-color: transparent;
+}
